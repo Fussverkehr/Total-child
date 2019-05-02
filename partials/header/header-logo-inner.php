@@ -16,11 +16,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Define variables
 if (ICL_LANGUAGE_CODE == 'fr') {
-$logo_url   = 'https://mobilitepietonne.ch';
+$logo_url   = 'https://mobilitepietonne.ch/nos-themes/securite-routiere/chemin-de-lecole/';
 } elseif (ICL_LANGUAGE_CODE == 'it') {
-$logo_url   = 'https://mobilitapedonale.ch';
+$logo_url   = 'https://mobilitapedonale.ch/news-it/in-sicurezza-a-scuola-una-nuova-guida-per-i-genitori/';
 } else {
-$logo_url   = 'https://fussverkehr.ch';
+$logo_url   = 'https://fussverkehr.ch/unsere-themen/verkehrssicherheit/schulwege/';
 }
 
 $logo_img   = wpex_header_logo_img();
